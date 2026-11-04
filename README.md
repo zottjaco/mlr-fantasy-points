@@ -2,8 +2,6 @@
 
 Can you predict how many fantasy points a Major League Rugby starter will score before kickoff? This project models three seasons of player-match data (2023 to 2025) and compares the result against the simple rules a fantasy player would use.
 
-![Pre-game forecasts vs. naive rules](figures/06_pregame_vs_naive.png)
-
 ## The short answer
 
 - **Pre-game forecasts are hard.** Before kickoff, the best model misses by about **3 fantasy points per forward** and **3.9 per back** (test MAE). That is only **3 to 4% better** than the best simple rule, a player's average so far this season.
@@ -22,8 +20,6 @@ Can you predict how many fantasy points a Major League Rugby starter will score 
 | In-game XGBoost (upper bound), test R² | 0.97 | 0.97 |
 
 Test set: 2025 Rounds 11 to 16, 1,020 starter performances, evaluated once.
-
-![Pre-game vs. in-game error](figures/07_pregame_vs_ingame_rmse.png)
 
 ## Approach
 
